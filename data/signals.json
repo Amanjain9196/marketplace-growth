@@ -1,0 +1,8 @@
+[
+  {"source":"RTD","severity":"critical","impact":0.92,"confidence":0.95,"title":"Dispatch queue approaching SLA","reason":"A cluster of synthetic orders is inside the dispatch risk window.","action":"Prioritize affected warehouse queue before lower-risk dispatches."},
+  {"source":"Pricing","severity":"high","impact":0.78,"confidence":0.98,"title":"Price floor breach on Marketplace-B","reason":"Observed synthetic price is below configured floor for SKU-202.","action":"Validate promotion source and restore compliant price if unintended."},
+  {"source":"OSA","severity":"high","impact":0.82,"confidence":0.90,"title":"Mumbai availability below target","reason":"Repeated synthetic checks show SKU-101 unavailable on QCom-B.","action":"Investigate inventory allocation and local replenishment."},
+  {"source":"Ads","severity":"medium","impact":0.72,"confidence":0.82,"title":"Rising keyword demand with limited paid coverage","reason":"Search trend and planner demand are increasing while impressions remain constrained.","action":"Test a controlled bid increase and monitor incremental ROAS."},
+  {"source":"Ads","severity":"medium","impact":0.55,"confidence":0.88,"title":"Product-page placement under-converting","reason":"Synthetic placement CVR trails top-search performance.","action":"Reduce placement allocation and reallocate toward higher-efficiency inventory."},
+  {"source":"Growth","severity":"low","impact":0.35,"confidence":0.75,"title":"Stable portfolio performance","reason":"No major synthetic revenue anomaly detected in the latest cycle.","action":"Maintain current plan and continue monitoring."}
+]
